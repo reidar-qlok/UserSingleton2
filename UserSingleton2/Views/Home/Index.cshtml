@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p class="lead">Your session ID is:</p>
+    <p class="session-id">@ViewData["SessionId"]</p>
+</div>
+
+<style>
+    .text-center {
+        margin-top: 50px;
+    }
+
+    .session-id {
+        font-size: 1.5em;
+        font-weight: bold;
+        color: #007bff;
+    }
+</style>
